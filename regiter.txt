@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register Menu</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+  </head>
+  <style>
+  ul{
+    height: 570px;
+    width: 75px;
+  }
+  footer{
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+  }
+  footer a{
+    color: white;
+  }
+  .img5{
+    margin-right: -20px;
+    box-shadow:23px 23px 46px #666666, 23px 23px 46px #ffffff;
+    transition: 5s 0s;
+
+  }
+  </style>
+  <body>
+    <nav>
+      <label class="logo">VOTE</label>
+      <button class="button"><a href="logout.php">Logout</a></button>
+      <ul>
+          <li><a href="#">Menu</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="admin.php">Admin</a></li>
+        <li><a href="logout.php">Logout</a></li>
+      </ul>
+    </nav>
+   <table border="0" class="tab">
+    <tr>
+      <td align="center">
+        <a href="nominations.php">
+        <img src="img/group.png" width="130px" height="120px" class="img1">
+        <p>Candidates</p></a>
+      </td>
+      <td align="center">
+        <a href="selection.php">
+        <img src="img/online-voting.png" width="130px" height="130px" class="img2">
+        <p>Vote</p></a>
+      </td>
+
+      <td align="center">
+        <a href="instructions.php">
+        <img src="img/note.png" width="130px" height="130px" class="img5">
+        <p>Instructions</p></a>
+      </td>
+    </tr>
+  </table>
+  <footer>
+    Email id: <a href="#">sharmabeena572000@gmail.com</a>
+  </footer>
+  </body>
+  </html>
